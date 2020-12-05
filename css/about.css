@@ -1,0 +1,186 @@
+*{
+	transition: 0.5s;
+}
+
+.row{
+	display: flex;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+	width: 50%;
+	max-width: 500px;
+	margin: 20px auto;
+}
+
+.about-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #033E8A;
+	color: white;
+}
+
+.title {
+	color: grey;
+	padding: 10px;
+}
+
+.button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #033e8a;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+	background-color: #9AB2D0;
+}
+
+.imgcls{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto 20px auto;
+}
+
+.imgcls2{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 20px auto;
+	width: 50%;
+}
+
+.imgcls2 img{
+	margin: 45px 0;
+}
+
+.pd5{
+	padding: 5px;
+}
+
+.heading{
+	text-align: center; 
+	margin-top: 20px; 
+	font-size: 40px;
+}
+
+.bor{
+	width: calc(100% - 100px);
+	background-color: black;
+	height: 3px;
+	margin: 50px auto;
+	border-radius: 2px;
+}
+
+.row2{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.techteam{
+	width: 50%;
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.mem{
+	display: flex;
+	align-items: center;
+	justify-content: baseline;
+}
+
+.circle{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: cadetblue;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 1250px){
+	.row2{
+		min-height: 450px;
+	}
+}
+
+@media screen and (max-width: 1110px){
+	.row2{
+		flex-direction: column;
+	}
+
+	.imgcls2, .techteam{
+		margin: 20px auto;
+	}
+
+	.imgcls2 img{
+		margin: 0;
+	}
+
+	.mem{
+		margin: 15px 0;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.card{
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.card{
+		max-width: 300px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.imgcls2{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.row{
+		flex-direction: column;
+	}
+	.card{
+		width: 100%;
+		max-width: 500px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.card{
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 550px){
+
+	.imgcls2{
+		width: 90%;
+	}
+
+	.techteam{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.card{
+		max-width: 300px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.techteam{
+		width: 80%;
+	}
+}
