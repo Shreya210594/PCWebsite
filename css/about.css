@@ -6,12 +6,13 @@
 	display: flex;
 }
 
-.card {
+.aboutcard {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	text-align: center;
 	width: 50%;
 	max-width: 500px;
 	margin: 20px auto;
+	height: fit-content;
 }
 
 .about-section {
@@ -26,7 +27,7 @@
 	padding: 10px;
 }
 
-.button {
+.buttonlink {
 	border: none;
 	outline: 0;
 	display: inline-block;
@@ -36,14 +37,15 @@
 	text-align: center;
 	cursor: pointer;
 	width: 100%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	display: none;
 }
 
-.button:hover {
+.buttonlink:hover {
 	background-color: #9AB2D0;
 }
 
-.imgcls{
+.imgclsss{
 	width: 300px;
 	height: 300px;
 	margin: 0 auto 20px auto;
@@ -60,7 +62,8 @@
 }
 
 .pd5{
-	padding: 5px;
+	padding: 10px;
+	font-size: 17px;
 }
 
 .heading{
@@ -85,7 +88,7 @@
 .techteam{
 	width: 50%;
 	max-width: 500px;
-	display: flex;
+	display: none;
 	flex-direction: column;
 	justify-content: space-evenly;
 }
@@ -102,6 +105,11 @@
 	height: 100px;
 	background-color: cadetblue;
 	margin-right: 20px;
+}
+
+.slinks{
+	text-decoration: none;
+	color: #033E8A;
 }
 
 @media screen and (max-width: 1250px){
@@ -129,13 +137,13 @@
 }
 
 @media screen and (max-width: 1050px) {
-	.card{
+	.aboutcard{
 		max-width: 400px;
 	}
 }
 
 @media screen and (max-width: 900px){
-	.card{
+	.aboutcard{
 		max-width: 300px;
 	}
 }
@@ -144,20 +152,24 @@
 	.imgcls2{
 		width: 70%;
 	}
+
+	.pd5{
+		font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 700px){
 	.row{
 		flex-direction: column;
 	}
-	.card{
+	.aboutcard{
 		width: 100%;
 		max-width: 500px;
 	}
 }
 
 @media screen and (max-width: 600px){
-	.card{
+	.aboutcard{
 		max-width: 400px;
 	}
 }
@@ -174,7 +186,7 @@
 }
 
 @media screen and (max-width: 450px){
-	.card{
+	.aboutcard{
 		max-width: 300px;
 	}
 }
