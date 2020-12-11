@@ -3,12 +3,12 @@ if(document.getElementById("thou")){
 	var Timer = setInterval(function(){
 		if(count >= 1000){
 			count = 500;
-			ddocument.getElementById("fort").innerHTML = count + "+";
+			document.getElementById("fort").innerHTML = count + "+";
 		} else {
 			document.getElementById("thou").innerHTML = count + "+";
 		}
 		count += 1;
-	}, 50);
+	}, 10);
 }
 
 
@@ -17,12 +17,12 @@ if(document.getElementById("thou2")){
 	var Timer2 = setInterval(function(){
 		if(count2 >= 1000){
 			count2 = 500;
-			ddocument.getElementById("fort").innerHTML = count2 + "+";
+			document.getElementById("fort").innerHTML = count2 + "+";
 		} else {
 			document.getElementById("thou2").innerHTML = count2 + "+";
 		}
 		count2 += 1;
-	}, 50);
+	}, 10);
 }
 
 
@@ -31,7 +31,7 @@ if(document.getElementById("fort")){
 	var Timer3 = setInterval(function(){
 		if(count3 == 41){
 			count3 = 20;
-			ddocument.getElementById("fort").innerHTML = count3 + "+";
+			document.getElementById("fort").innerHTML = count3 + "+";
 
 		} else {
 			document.getElementById("fort").innerHTML = count3 + "+";
