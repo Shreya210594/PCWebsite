@@ -83,18 +83,16 @@
 .row2{
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
 }
 
 .techteam{
-	width: 50%;
 	max-width: 500px;
-	display: none;
-	flex-direction: column;
-	justify-content: space-evenly;
 }
 
 .mem{
 	display: flex;
+	margin: 20px;
 	align-items: center;
 	justify-content: baseline;
 }
